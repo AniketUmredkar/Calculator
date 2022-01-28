@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="input-container"></div>
+      <div class="btn-container">
+        <button id="block7" class="num-btn" onclick="pressNum('7')">7</button>
+        <button id="block8" class="num-btn" onclick="pressNum('8')">8</button>
+        <button id="block9" class="num-btn" onclick="pressNum('9')">9</button>
+        <button id="plus" class="operations" onclick="operation('+')">+</button>
+        <button id="block4" class="num-btn" onclick="pressNum('4')">4</button>
+        <button id="block5" class="num-btn" onclick="pressNum('5')">5</button>
+        <button id="block6" class="num-btn" onclick="pressNum('6')">6</button>
+        <button id="minus" class="operations" onclick="operation('-')">
+          -
+        </button>
+        <button id="block1" class="num-btn" onclick="pressNum('1')">1</button>
+        <button id="block2" class="num-btn" onclick="pressNum('2')">2</button>
+        <button id="block3" class="num-btn" onclick="pressNum('3')">3</button>
+        <button id="multiply" class="operations" onclick="operation('*')">
+          *
+        </button>
+        <button id="clr" onclick="clr()">clr</button>
+        <button id="block0" onclick="pressNum('0')">0</button>
+        <button id="dot" onclick="pressDot('.')">.</button>
+        <button id="divide" class="operations" onclick="operation('/')">
+          /
+        </button>
+        <input id="input" />
+        <button id="ans" onclick="finalAns()">=</button>
+      </div>
+    </div>
+  </body>
+</html>

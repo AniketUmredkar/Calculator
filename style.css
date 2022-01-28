@@ -1,0 +1,35 @@
+.calculator {
+  width: 400px;
+  margin: 20px auto;
+}
+.btn-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+button {
+  height: 40px;
+  font-size: 20px;
+  background-color: #adb5bd;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c5cbcf;
+}
+.operations {
+  background-color: #ff922b;
+}
+.operations:hover {
+  background-color: #ffa94d;
+}
+#ans {
+  background-color: #d9480f;
+}
+#ans:hover {
+  background-color: #e8590c;
+}
+#input {
+  background-color: #dcdcdc;
+  grid-column: 1 / 4;
+}
